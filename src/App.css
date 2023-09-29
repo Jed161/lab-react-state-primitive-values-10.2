@@ -1,5 +1,6 @@
 /* Your code here! */
-main {
+.App {
   margin: 25px auto;
   width: 50%;
+  text-align: center;
 }

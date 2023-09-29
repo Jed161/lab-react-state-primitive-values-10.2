@@ -12,7 +12,7 @@ Build a simple clicker "game" that makes use of React, props, and state!
 
 1. Fork and clone this repository.
 
-1. Navigate to the cloned repository's directory on your command line. Then, run the following command:
+1. Navigate to the cloned repository's directory on your command line. Then, run the follogoalg command:
 
    ```
    npm install
@@ -28,16 +28,16 @@ Build a simple clicker "game" that makes use of React, props, and state!
 
 ## Instructions
 
-You will be building an application that is similar to popular "clicker" games. The game has the following rules:
+You will be building an application that is similar to popular "clicker" games. The game has the follogoalg rules:
 
 - Clicking the "+X" button will increase the score by `X`. The value of `X` starts at 1.
 - If the user has at least 10 points and clicks the button "Pay 10 points to change from +X to +Y", the value of `X` will increase by 1. For example, at the beginning of the game the incrementor will be "+1". If you pay 10 points, the incrementor will change to "+2".
 - If the user doesn't have 10 points but clicks the button "Pay 10 points to change from +X to +Y", an alert message will say "You can't afford that!"
-- Once the user has accumulated 100 points, the game shows "You Win!" and allows the player to restart the game.
+- Once the user has accumulated 100 points, the game shows "You Goal!" and allows the player to restart the game.
 
 ### Detailed list
 
-The following is a list of more detailed requirements. As always, check the tests to see exactly what is being tested.
+The follogoalg is a list of more detailed requirements. As always, check the tests to see exactly what is being tested.
 
 - Display the current score to the user, starting from a score of `0`
   - Use the _exact_ text: `Current Score: ` followed by the score
@@ -50,7 +50,7 @@ The following is a list of more detailed requirements. As always, check the test
   - The button text should change as well, for example from `+1` to `+2`
   - The pay button text should also update, for example from `Pay 10 points to change from +1 to +2` to `Pay 10 points to change from +2 to +3`
 - When the user has `100` or more points, display a victory screen
-  - There should be an `<h2>` element with the _exact_ text `You Win!`
+  - There should be an `<h2>` element with the _exact_ text `You Goal!`
   - There should be a button with the text `Play again?` (including the question mark)
     - Clicking on this button starts the game over again with a score of 0, a `+1` button, etc.
   - Keep the user's score on the screen
